@@ -1,0 +1,54 @@
+/* ocean: paired dark and light palettes */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #101e2a;
+  --surface: #182c3c;
+  --surface-2: #243e50;
+  --ink: #edf5f7;
+  --muted: #b9ccd7;
+  --faint: #9bb5c5;
+  --line: #426074;
+  --accent: #8fd5dd;
+  --accent-soft: #254a55;
+  --danger: #efa095;
+  --success: #acd09f;
+  --important: #c9b0ed;
+  --warning: #edc17d;
+  --shadow-color: rgba(10, 6, 17, .36);
+  --reader-shadow: rgba(10, 6, 17, .26);
+  --scrim-color: rgba(10, 6, 17, .65);
+  --reader-panel: rgba(39, 33, 50, .98);
+  --reader-edge: rgba(225, 191, 122, .24);
+  --page-background-image: none;
+  --page-background-wash: rgba(28, 24, 36, .88);
+  --pdf-background: #ffffff;
+  --print-background: #ffffff;
+  --print-ink: #000000;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #dfeaf0;
+  --surface: #f4fafc;
+  --surface-2: #e2eef3;
+  --ink: #193647;
+  --muted: #476474;
+  --faint: #526e7c;
+  --line: #acc5d0;
+  --accent: #246575;
+  --accent-soft: #d9edf0;
+  --danger: #963f39;
+  --success: #42683c;
+  --important: #704b91;
+  --warning: #855817;
+  --shadow-color: rgba(58, 39, 52, .15);
+  --reader-shadow: rgba(58, 39, 52, .09);
+  --scrim-color: rgba(36, 24, 43, .42);
+  --reader-panel: rgba(250, 243, 229, .98);
+  --reader-edge: rgba(103, 71, 127, .22);
+  --page-background-image: none;
+  --page-background-wash: rgba(233, 223, 204, .90);
+  --pdf-background: #ffffff;
+  --print-background: #ffffff;
+  --print-ink: #000000;
+}

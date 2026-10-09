@@ -1,0 +1,188 @@
+{
+  "title": "Faction Tracker",
+  "subtitle": "Friends, enemies, and everyone watching.",
+  "eyebrow": "THE CAMPAIGN LEDGER",
+  "headerIcon": {
+    "symbol": "✦",
+    "image": ""
+  },
+  "factionIcon": {
+    "symbol": "✦",
+    "image": ""
+  },
+  "campaign": "The Salted Sands",
+  "dataSource": "sheets",
+  "dataUrl": "assets/factions.json",
+  "text": {
+    "listHeading": "Known factions",
+    "listHelp": "Select a faction to read the DM’s notes.",
+    "searchLabel": "Search factions",
+    "searchPlaceholder": "Find a faction…",
+    "empty": "No factions match your search.",
+    "sourceBadge": "LOCAL JSON",
+    "refresh": "↻ Refresh standings",
+    "count": "{visible} of {total} factions",
+    "dossier": "FACTION DOSSIER",
+    "selectedFaction": "Selected faction",
+    "selectFaction": "Select a faction to open its dossier.",
+    "factionCategory": "Faction",
+    "noNotes": "No notes have been added yet.",
+    "notesHeading": "FROM THE DM",
+    "contact": "Known contact",
+    "location": "Where to find them",
+    "meterValue": "{label} · {value}",
+    "meterDescription": "{label}, {value}",
+    "factionAction": "{name}. {meters}. Open notes.",
+    "paletteLabel": "Color palette",
+    "dusk": "Dusk",
+    "parchment": "Parchment",
+    "sage": "Sage",
+    "ocean": "Ocean",
+    "lightMode": "Switch to light mode",
+    "darkMode": "Switch to dark mode",
+    "closeNotes": "Close faction notes",
+    "footerLeft": "TechInTheKitchen / Faction Tracker",
+    "footerRight": "Player reference · The Salted Sands",
+    "loading": "Loading standings…",
+    "lastUpdated": "Last updated: {date}",
+    "previousData": " Previously loaded standings are still shown.",
+    "loadHelp": " Use tools/Open Site.cmd to serve the app, then refresh.",
+    "sheetsSourceBadge": "GOOGLE SHEETS",
+    "lastSynced": "Last synced: {date}",
+    "unknownFaction": "Unknown faction",
+    "censoredText": "Not yet discovered"
+  },
+  "googleSheets": {
+    "spreadsheetId": "1UR0NOrU9hEl_LZwxQJWvXJoD2yrP83BtR6Zz8rah8CE",
+    "gid": "",
+    "sheet": ""
+  },
+  "metrics": [
+    {
+      "field": "awareness",
+      "name": "Awareness",
+      "min": 0,
+      "max": 100,
+      "suffix": "%",
+      "showPlus": false,
+      "color": "var(--accent)",
+      "bands": [
+        {
+          "max": 0,
+          "label": "Unaware"
+        },
+        {
+          "max": 25,
+          "exclusive": true,
+          "label": "Rumors"
+        },
+        {
+          "max": 50,
+          "exclusive": true,
+          "label": "Noticed"
+        },
+        {
+          "max": 75,
+          "exclusive": true,
+          "label": "Familiar"
+        },
+        {
+          "max": 90,
+          "exclusive": true,
+          "label": "Watching"
+        },
+        {
+          "max": 100,
+          "label": "Closely watching"
+        }
+      ]
+    },
+    {
+      "field": "opinion",
+      "name": "Opinion",
+      "min": -100,
+      "max": 100,
+      "baseline": 0,
+      "suffix": "",
+      "showPlus": true,
+      "color": "var(--muted)",
+      "bands": [
+        {
+          "max": -75,
+          "label": "Hostile",
+          "color": "var(--danger)"
+        },
+        {
+          "max": -25,
+          "label": "Unfriendly",
+          "color": "var(--danger)"
+        },
+        {
+          "max": 25,
+          "exclusive": true,
+          "label": "Neutral",
+          "color": "var(--muted)"
+        },
+        {
+          "max": 75,
+          "exclusive": true,
+          "label": "Friendly",
+          "color": "var(--success)"
+        },
+        {
+          "max": 100,
+          "label": "Allied",
+          "color": "var(--success)"
+        }
+      ]
+    },
+    {
+      "field": "influence",
+      "name": "Influence",
+      "min": 0,
+      "max": 10,
+      "suffix": " / 10",
+      "showPlus": false,
+      "color": {
+        "dark": "#b0d39b",
+        "light": "#376448"
+      },
+      "bands": [
+        {
+          "max": 3,
+          "label": "Limited"
+        },
+        {
+          "max": 7,
+          "label": "Established"
+        },
+        {
+          "max": 10,
+          "label": "Dominant",
+          "color": "var(--accent)"
+        }
+      ]
+    }
+  ],
+  "censorship": {
+    "characters": "កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវសហឡអ",
+    "intervalMs": 240,
+    "changeFraction": 0.3333333333333333,
+    "characterWidthEm": 0.85,
+    "letterSpacingEm": 0
+  },
+  "fonts": {
+    "headings": "cinzel",
+    "notes": "im-fell-english",
+    "interface": "system",
+    "censored": "noto-sans-khmer"
+  },
+  "appearance": {
+    "palette": "dusk",
+    "mode": "dark"
+  },
+  "footerLink": {
+    "text": "TechInTheKitchen",
+    "url": "https://The-Kitchen.dev"
+  }
+}

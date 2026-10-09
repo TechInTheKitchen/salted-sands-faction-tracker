@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c1824">
+  <title>Faction Tracker</title>
+  <link id="favicon" rel="icon" href="data:,">
+  <link id="palette" rel="stylesheet" href="assets/themes/dusk.css">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/metrics.js" defer></script>
+  <script src="assets/sheets.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <a class="brand" href="./"><span id="header-icon" aria-hidden="true">✦</span> <span id="site-title">Faction Tracker</span></a>
+    <div class="appearance">
+      <label class="sr-only" for="theme">Color palette</label>
+      <select id="theme">
+        <option value="dusk">Dusk</option>
+        <option value="parchment">Parchment</option>
+        <option value="sage">Sage</option>
+        <option value="ocean">Ocean</option>
+      </select>
+      <button id="mode" class="quiet" aria-label="Switch to light mode">☀</button>
+    </div>
+  </header>
+  <main>
+    <section class="intro">
+      <p id="site-eyebrow" class="eyebrow">THE CAMPAIGN LEDGER</p>
+      <h1 id="campaign">The Salt Coast</h1>
+    </section>
+    <div class="toolbar">
+      <div><span class="source-badge">GOOGLE SHEETS</span><span id="count"></span></div>
+      <p id="subtitle">Friends, enemies, and everyone watching.</p>
+      <button id="refresh" class="text-button">↻ Refresh standings</button>
+    </div>
+    <div class="desk">
+      <section class="factions" aria-labelledby="list-heading">
+        <div class="section-head">
+          <h2 id="list-heading">Known factions</h2>
+          <label class="sr-only" for="search">Search factions</label>
+          <input type="search" id="search" placeholder="Find a faction…" autocomplete="off">
+          <p>Select a faction to read the DM’s notes.</p>
+        </div>
+        <div id="faction-list"></div>
+        <p id="empty" hidden>No factions match your search.</p>
+      </section>
+      <aside class="reading-column" aria-label="Selected faction">
+        <article id="details"></article>
+      </aside>
+    </div>
+    <p id="status" role="status" aria-live="polite" hidden></p>
+    <footer>
+      <span><a href="https://The-Kitchen.dev">TechInTheKitchen</a> / Faction Tracker</span>
+      <span id="last-updated"></span>
+      <span>Player reference · Sample campaign</span>
+    </footer>
+  </main>
+  <dialog id="modal" aria-labelledby="modal-title">
+    <div class="dialog-head">
+      <p class="eyebrow">FACTION DOSSIER</p>
+      <button id="close" class="quiet" aria-label="Close faction notes">×</button>
+    </div>
+    <article id="modal-body"></article>
+  </dialog>
+</body>
+</html>

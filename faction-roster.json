@@ -1,0 +1,543 @@
+{
+  "compiledAt": "2026-10-09",
+  "purpose": "Names and contacts for DM review between arcs; not live tracker standings.",
+  "factions": [
+    {
+      "id": "faostian-meritocracy",
+      "name": "Faostian Meritocracy",
+      "contact": "Regent-Executive Calwyn Faost",
+      "contactStatus": "Named leader; party access unconfirmed",
+      "reviewNote": "Calwyn's specific profile supersedes the older overview naming Elias as current ruler.",
+      "entryType": "main",
+      "sources": [
+        "Faostian Meritocracy/People/Regent-Executive Calwyn Faost.md"
+      ]
+    },
+    {
+      "id": "faostian-trade-confederation-ftc",
+      "name": "Faostian Trade Confederation (FTC)",
+      "contact": "Slade Virell; Admiral-Director Veshra Ilmin",
+      "contactStatus": "Slade: established fixer; Veshra: encountered authority",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/The FTC.md",
+        "Quests/Finished Quests/The Patent Crucible Heist.md",
+        "Sessions/Session 9 A Verdict in Ash.md"
+      ]
+    },
+    {
+      "id": "church-of-calibrated-light",
+      "name": "Church of Calibrated Light",
+      "contact": "High Luminary Serathiel Vox; Cardinal-Analyst Irielle Quon; Sub-Luminary Threx; Deacon Alder Teake",
+      "contactStatus": "Named clergy; Rux has a Church connection, but the handler is not identified",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Gods and their Kin/The Church of Calibrated Light.md",
+        "Quests/On Temporal Calibration and the Quiet War/NPCs",
+        "The Federated Borderstates of Elvania/People/Deacon of Calibration, Alder Teake.md"
+      ]
+    },
+    {
+      "id": "the-common-weal",
+      "name": "The Common Weal",
+      "contact": "Coordinator Maeve Kest; Dr. Othric Pell",
+      "contactStatus": "Named figures; no established friendly contact",
+      "reviewNote": "Pell is identified through recovered research; that does not establish access to him.",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/The Common Weal.md",
+        "Sessions/Session 6 Ashes, Indices, and the Weight of Being Noticed.md"
+      ]
+    },
+    {
+      "id": "haven-securities",
+      "name": "Haven Securities",
+      "contact": "Alaric Veyne",
+      "contactStatus": "Named chairman; party dealt with Haven Bank, unnamed staff",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/Haven Securities.md",
+        "Sessions/Session 3 Lanterns, Locks, and Hollow Promises.md"
+      ]
+    },
+    {
+      "id": "the-hollow-vein-syndicate",
+      "name": "The Hollow Vein Syndicate",
+      "contact": "“Hollow Jack” Merro; Dr. Lyris Amaryn; Nera Thornbright (outside informant)",
+      "contactStatus": "Named plot figures; contact with them unconfirmed",
+      "reviewNote": "Local encampments were raided by the FTC in Session 8; surviving local access needs confirmation.",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/The Hollow Vein Syndicate.md",
+        "Sessions/Session 8 The Spire Break.md"
+      ]
+    },
+    {
+      "id": "haven-monster-hunters-guild",
+      "name": "Haven Monster Hunters Guild",
+      "contact": "Unnamed orkish desk clerk",
+      "contactStatus": "Established interaction; provisional party membership",
+      "reviewNote": "Keep distinct from Haven Securities; the session links Haven, but the institutional relationship is not explained.",
+      "entryType": "main",
+      "sources": [
+        "Sessions/Session 6 Ashes, Indices, and the Weight of Being Noticed.md"
+      ]
+    },
+    {
+      "id": "the-brothers-below-undercity-of-faost",
+      "name": "The Brothers Below / Undercity of Faost",
+      "contact": "Calder; Varric",
+      "contactStatus": "Established contacts",
+      "reviewNote": "The Brothers are dead but remain active; post-arc availability needs confirmation.",
+      "entryType": "main",
+      "sources": [
+        "Faostian Meritocracy/Faost Capitol/The Undercity/People/The Brothers Below.md",
+        "Sessions/Session 5 The Black Meridian, and What Was Taken Back.md",
+        "Sessions/Session 8 The Spire Break.md"
+      ]
+    },
+    {
+      "id": "workers-united-workers-association",
+      "name": "Workers United / Workers’ Association",
+      "contact": "Ariel Hornsmeet; Thomas LeGrange; Sedrick Digdra",
+      "contactStatus": "Named quest figures; present availability unconfirmed",
+      "reviewNote": "Workers United is the quest title; no separate formal association name is supplied.",
+      "entryType": "main",
+      "sources": [
+        "Quests/Finished Quests/Dark Operative/Workers United.md"
+      ]
+    },
+    {
+      "id": "the-laureate-vanguard",
+      "name": "The Laureate Vanguard",
+      "contact": "Prime Laureate Cassian Veyr; Brinna Kest; Oren Pell; Severa Morn",
+      "contactStatus": "Suggested NPCs in next-arc planning",
+      "reviewNote": "The source labels these figures 'Suggested Notable Laureates'; confirm adoption into canon.",
+      "entryType": "main",
+      "sources": [
+        "Quests/On Temporal Calibration and the Quiet War/A Month Ahead/The Laureate Vanguard.md"
+      ]
+    },
+    {
+      "id": "republic-of-arcfrost",
+      "name": "Republic of Arcfrost",
+      "contact": "First Speaker Liraen Voss",
+      "contactStatus": "Named elected leader; direct party access unconfirmed",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Republic of Arcfrost/People/First Speaker Liraen Voss.md"
+      ]
+    },
+    {
+      "id": "the-stormwardens",
+      "name": "The Stormwardens",
+      "contact": "Warden Edda Valestrike; High Stormwarden Sythis Keld; High Warden Brynja Stormvein",
+      "contactStatus": "Edda: recent party contact and possible ally; others: named leaders",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Sessions/Session 16.md",
+        "Republic of Arcfrost/People/Notable Stormwardens.md",
+        "Republic of Arcfrost/People/Arcturion Sythis Keld, High Stormwarden.md"
+      ]
+    },
+    {
+      "id": "acadial-research-university-acadial-peakworks",
+      "name": "Acadial Research University / Acadial Peakworks",
+      "contact": "Tria Silverwind",
+      "contactStatus": "Established contact, reconnected in Session 15",
+      "reviewNote": "University and Peakworks grouped as one practical tracker entry; split if you track them separately.",
+      "entryType": "main",
+      "sources": [
+        "Republic of Arcfrost/Acadial Peakworks.md",
+        "Sessions/Session 15.md"
+      ]
+    },
+    {
+      "id": "hearth-circles-of-arcfrost",
+      "name": "Hearth Circles of Arcfrost",
+      "contact": "Dagna Emberwake (Whitechain); Kessa “Third Bell” Rimeholt (independent intermediary)",
+      "contactStatus": "Dagna: named local officer; Kessa: established broker",
+      "reviewNote": "A decentralized civic network; Dagna speaks for Whitechain, not all Circles.",
+      "entryType": "main",
+      "sources": [
+        "Republic of Arcfrost/Hearth Circles of Arcfrost.md",
+        "Republic of Arcfrost/People/People of Arcfrost.md",
+        "Republic of Arcfrost/People/Kessa “Third Bell” Rimeholt.md"
+      ]
+    },
+    {
+      "id": "the-open-hearth-coalition",
+      "name": "The Open Hearth Coalition",
+      "contact": "First Speaker Liraen Voss",
+      "contactStatus": "Named associated leader",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Republic of Arcfrost/Arcfrost City - Civic Life.md"
+      ]
+    },
+    {
+      "id": "the-thunder-mandate",
+      "name": "The Thunder Mandate",
+      "contact": "High Stormwarden Sythis Keld; Pell Orrow (sympathetic local voice)",
+      "contactStatus": "Named associated leader and supporter",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Republic of Arcfrost/Arcfrost City - Civic Life.md",
+        "Republic of Arcfrost/People/People of Arcfrost.md"
+      ]
+    },
+    {
+      "id": "the-compact-houses",
+      "name": "The Compact Houses",
+      "contact": "Senator Cael Vorrin; Sorn Vey (courier)",
+      "contactStatus": "Named faction figures; party access unconfirmed",
+      "reviewNote": "Collective political current; individual house names are not supplied.",
+      "entryType": "main",
+      "sources": [
+        "Republic of Arcfrost/Arcfrost City - Civic Life.md",
+        "Republic of Arcfrost/People/People of Arcfrost.md"
+      ]
+    },
+    {
+      "id": "the-deep-holding-guilds-holding-guilds",
+      "name": "The Deep Holding Guilds / Holding Guilds",
+      "contact": "Rusk Anvilson; Senator Orsa Flintvein (Deep Holding delegate); Kessa (independent intermediary)",
+      "contactStatus": "Named organizer and delegate; Kessa is an established broker",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Republic of Arcfrost/Arcfrost City - Civic Life.md",
+        "Republic of Arcfrost/People/People of Arcfrost.md",
+        "Republic of Arcfrost/People/Kessa “Third Bell” Rimeholt.md"
+      ]
+    },
+    {
+      "id": "the-unwritten",
+      "name": "The Unwritten",
+      "contact": "Dr. Eiran Hushglass; Harl Stoneweather (indirect channel)",
+      "contactStatus": "Named contact route; party access unconfirmed",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Republic of Arcfrost/Arcfrost City - Civic Life.md",
+        "Republic of Arcfrost/People/People of Arcfrost.md"
+      ]
+    },
+    {
+      "id": "federated-borderstates-of-elvania",
+      "name": "Federated Borderstates of Elvania",
+      "contact": "Envoy-Marshal Jana Wryme; Rellin Tamm; Speaker Tarnell “Ashcloak”",
+      "contactStatus": "Encountered at the Session 10–11 conclave",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Sessions/Session 10 and 11.md",
+        "The Federated Borderstates of Elvania/Elvania.md"
+      ]
+    },
+    {
+      "id": "the-silver-court-of-elvania",
+      "name": "The Silver Court of Elvania",
+      "contact": "Jana Wryme; Rellin Tamm; Tarnell “Ashcloak” (possible routes via wider Elvanian leadership)",
+      "contactStatus": "Court-specific contact unconfirmed",
+      "reviewNote": "The newer Elvania note describes a distinct listening body. Conclave attendance does not establish Court membership.",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/The Elvania Silver Court.md",
+        "The Federated Borderstates of Elvania/Elvania.md",
+        "Sessions/Session 10 and 11.md"
+      ]
+    },
+    {
+      "id": "the-speakers-of-the-fae",
+      "name": "The Speakers of the Fae",
+      "contact": "Cas’p (party member); Eiran Thalos-of-the-Quiet-Bough (bound spirit)",
+      "contactStatus": "Party connection; named historical Speaker remains as a spirit",
+      "reviewNote": "A dispersed role/network, rather than a unified organization.",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/The Speakers of the Fae.md",
+        "The Federated Borderstates of Elvania/Elvania.md",
+        "The Federated Borderstates of Elvania/People/Eiran Thalos-of-the-Quiet-Bough.md",
+        "Sessions/Session 10 and 11.md"
+      ]
+    },
+    {
+      "id": "the-oathkeepers",
+      "name": "The Oathkeepers",
+      "contact": "Speaker Tarnell “Ashcloak” (hospitality-law enforcer; possible route)",
+      "contactStatus": "Named enforcer; explicit Oathkeeper membership unconfirmed",
+      "reviewNote": "Tarnell's role fits, but the notes do not explicitly give him the Oathkeeper title.",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/The Elvania Silver Court.md",
+        "The Federated Borderstates of Elvania/People/Speaker Tarnell “Ashcloak”.md"
+      ]
+    },
+    {
+      "id": "hearthbond-communion",
+      "name": "Hearthbond Communion",
+      "contact": "Rellin Tamm, Hearthwarden of Hillmeet; Tarnell “Ashcloak”",
+      "contactStatus": "Rellin and Tarnell encountered at the conclave",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Gods and their Kin/Hearthbond Communion.md",
+        "The Federated Borderstates of Elvania/People/Rellin Tamm, Hearthwarden of Hillmeet.md",
+        "Sessions/Session 10 and 11.md"
+      ]
+    },
+    {
+      "id": "salted-sands-nomads-tribes",
+      "name": "Salted Sands Nomads / Tribes",
+      "contact": "Whisper Artishia Stormwind (established intermediary); High Shaman Keshet",
+      "contactStatus": "Artishia: active party contact; Keshet: named spiritual authority",
+      "reviewNote": "Umbrella entry overlaps the five individual groups below.",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/The Salted Sands - Tribes.md",
+        "Sessions/Session 10 and 11.md",
+        "Sessions/Session 12-14.md"
+      ]
+    },
+    {
+      "id": "stormblood-clans",
+      "name": "Stormblood Clans",
+      "contact": "Whisper Artishia Stormwind; High Shaman Keshet",
+      "contactStatus": "Artishia: established contact; Keshet: named leader",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Salted Sands/People/Whisper Artishia Stormwind.md",
+        "Salted Sands/People/High Shaman Keshet of the Stormblood Clans.md",
+        "Sessions/Session 12-14.md"
+      ]
+    },
+    {
+      "id": "carvers-of-ashal-ashal-carvers",
+      "name": "Carvers of Ashal / Ashal Carvers",
+      "contact": "Stone-King Va’thuur",
+      "contactStatus": "Named leader; party access unconfirmed",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/The Salted Sands - Tribes.md",
+        "Salted Sands/People/Stone-King Va’thuur of the Ashal Carvers.md"
+      ]
+    },
+    {
+      "id": "the-glassbound",
+      "name": "The Glassbound",
+      "contact": "",
+      "contactStatus": "No named contact found",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/The Salted Sands - Tribes.md"
+      ]
+    },
+    {
+      "id": "sandrunners",
+      "name": "Sandrunners",
+      "contact": "Sima “Saltwalker” Nahir",
+      "contactStatus": "Named guide; party access unconfirmed",
+      "reviewNote": "",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/The Salted Sands - Tribes.md",
+        "Salted Sands/People/Sima “Saltwalker” Nahir.md"
+      ]
+    },
+    {
+      "id": "salt-sky-stone-faithful-tidelorn-trinity-followers",
+      "name": "Salt–Sky–Stone Faithful / Tidelorn Trinity followers",
+      "contact": "Unnamed Tidelorn monk at the Salt Sea and Sky Temple",
+      "contactStatus": "Established encounter with a reported outreach arm; no personal name",
+      "reviewNote": "Grouped because the Basin note explicitly links the Salt–Sky–Stone pilgrims to the Trinity. Split local sects if needed.",
+      "entryType": "main",
+      "sources": [
+        "Global Forces/The Salted Sands - Tribes.md",
+        "Gods and their Kin/The Tidelorn Trinity.md",
+        "Quests/Finished Quests/The Patent Crucible Heist.md"
+      ]
+    },
+    {
+      "id": "the-stormscript-covenant",
+      "name": "The Stormscript Covenant",
+      "contact": "Archivist Elna Farsight (Stormscript archive); Brynja Stormvein (Stormwarden route)",
+      "contactStatus": "Related named practitioners; no separate clergy contact identified",
+      "reviewNote": "These are Stormwarden routes, not confirmed leaders of the faith.",
+      "entryType": "main",
+      "sources": [
+        "Gods and their Kin/The Stormscript Covenant.md",
+        "Republic of Arcfrost/People/Notable Stormwardens.md"
+      ]
+    },
+    {
+      "id": "house-corthal-house-catchall",
+      "name": "House Corthal / House Catchall",
+      "contact": "Lord Pelion Catchall; Lady Morwen Catchall; Malpherisa “Mal” Corthal; Bernard “Bernie” Corthal",
+      "contactStatus": "Named house figures; identity needs review",
+      "reviewNote": "The same dossier switches between Corthal and Catchall. Retain one provisional row until you resolve whether they are one house or two.",
+      "entryType": "main",
+      "sources": [
+        "Quests/Finished Quests/The Fractured Crown/House Corthal.md"
+      ]
+    },
+    {
+      "id": "whitechain-hearth",
+      "name": "Whitechain Hearth",
+      "contact": "Dagna Emberwake; Pell Orrow; Selli Threadbare; Marn “Two-Ladles” Hesk",
+      "contactStatus": "Named local officers; party meeting unconfirmed",
+      "reviewNote": "",
+      "entryType": "subgroup",
+      "sources": [
+        "Republic of Arcfrost/Hearth Circles of Arcfrost.md",
+        "Republic of Arcfrost/People/People of Arcfrost.md"
+      ]
+    },
+    {
+      "id": "stormquiet",
+      "name": "Stormquiet",
+      "contact": "Warden Korrin Ashwake; Warden Edda Valestrike",
+      "contactStatus": "Korrin: named field commander; Edda: established contact, covert membership in DM notes",
+      "reviewNote": "Covert Stormwarden branch; Edda's membership is not shown as known to the party.",
+      "entryType": "subgroup",
+      "sources": [
+        "Republic of Arcfrost/People/Stormwardens of Arcfrost.md",
+        "Republic of Arcfrost/People/Notable Stormwardens.md",
+        "Republic of Arcfrost/People/People of Arcfrost.md"
+      ]
+    },
+    {
+      "id": "office-of-long-term-outcomes",
+      "name": "Office of Long-Term Outcomes",
+      "contact": "Director Halvane Sorell",
+      "contactStatus": "Named official; party access unconfirmed",
+      "reviewNote": "",
+      "entryType": "subgroup",
+      "sources": [
+        "Global Forces/The Common Weal.md"
+      ]
+    },
+    {
+      "id": "civic-preservation",
+      "name": "Civic Preservation",
+      "contact": "Prefect Ilyra Venn",
+      "contactStatus": "Named official; party access unconfirmed",
+      "reviewNote": "",
+      "entryType": "subgroup",
+      "sources": [
+        "Global Forces/The Common Weal.md"
+      ]
+    },
+    {
+      "id": "meridian-continuity-board",
+      "name": "Meridian Continuity Board",
+      "contact": "Chairman Dr. Othric Pell",
+      "contactStatus": "Named official; known through recovered documentation",
+      "reviewNote": "",
+      "entryType": "subgroup",
+      "sources": [
+        "Global Forces/The Common Weal.md",
+        "Sessions/Session 6 Ashes, Indices, and the Weight of Being Noticed.md"
+      ]
+    },
+    {
+      "id": "office-of-public-assurance",
+      "name": "Office of Public Assurance",
+      "contact": "Magistrate Corven Hale",
+      "contactStatus": "Named official; party access unconfirmed",
+      "reviewNote": "Do not automatically merge with Inspector Corvin Hale in the older Faost overview; spelling and office differ.",
+      "entryType": "subgroup",
+      "sources": [
+        "Global Forces/The Common Weal.md"
+      ]
+    },
+    {
+      "id": "the-necessary-margin",
+      "name": "The Necessary Margin",
+      "contact": "Coordinator Maeve Kest",
+      "contactStatus": "Named coordinator; party access unconfirmed",
+      "reviewNote": "",
+      "entryType": "subgroup",
+      "sources": [
+        "Global Forces/The Common Weal.md"
+      ]
+    },
+    {
+      "id": "arcfrost-senate",
+      "name": "Arcfrost Senate",
+      "contact": "First Speaker Liraen Voss; Senator Orsa Flintvein; Senator Cael Vorrin; Yura Bell (clerk)",
+      "contactStatus": "Named civic figures; direct access unconfirmed",
+      "reviewNote": "",
+      "entryType": "institution",
+      "sources": [
+        "Republic of Arcfrost/Arcfrost City - Civic Life.md",
+        "Republic of Arcfrost/People/People of Arcfrost.md"
+      ]
+    },
+    {
+      "id": "arcfrost-technical-councils",
+      "name": "Arcfrost Technical Councils",
+      "contact": "",
+      "contactStatus": "No named council representative explicitly identified",
+      "reviewNote": "",
+      "entryType": "institution",
+      "sources": [
+        "Republic of Arcfrost/Arcfrost City - Civic Life.md"
+      ]
+    },
+    {
+      "id": "council-of-weatherwrights",
+      "name": "Council of Weatherwrights",
+      "contact": "",
+      "contactStatus": "No named council representative found",
+      "reviewNote": "",
+      "entryType": "institution",
+      "sources": [
+        "Global Forces/The Stormwardens.md"
+      ]
+    },
+    {
+      "id": "circle-of-ash-and-bloom",
+      "name": "Circle of Ash and Bloom",
+      "contact": "",
+      "contactStatus": "No named contact found",
+      "reviewNote": "Torren Vale's governing druidic council.",
+      "entryType": "institution",
+      "sources": [
+        "The Federated Borderstates of Elvania/Torren Vale.md"
+      ]
+    },
+    {
+      "id": "local-merchants-guild-faost",
+      "name": "Local Merchants’ Guild (Faost)",
+      "contact": "",
+      "contactStatus": "No named contact found",
+      "reviewNote": "Descriptive name supplied by the heist note; a formal guild title is not given.",
+      "entryType": "institution",
+      "sources": [
+        "Quests/Finished Quests/The Patent Crucible Heist.md"
+      ]
+    },
+    {
+      "id": "the-patent-crucible",
+      "name": "The Patent Crucible",
+      "contact": "Stephan Myser (night security guard)",
+      "contactStatus": "Established pre-campaign contact; current availability unconfirmed",
+      "reviewNote": "Named organization/facility, rather than a clearly independent political faction.",
+      "entryType": "institution",
+      "sources": [
+        "Quests/Finished Quests/The Patent Crucible Heist.md"
+      ]
+    }
+  ]
+}

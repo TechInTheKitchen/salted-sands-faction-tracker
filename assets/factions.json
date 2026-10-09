@@ -1,0 +1,83 @@
+{
+  "updatedAt": "2026-10-08",
+  "factions": [
+    {
+      "id": "harbor-watch",
+      "name": "The Harbor Watch",
+      "symbol": "⚓",
+      "category": "City authority",
+      "awareness": 80,
+      "opinion": 30,
+      "blurb": "Captain Vey remembers your help at the burning docks. The Watch is willing to overlook a few irregularities, but your faces are now familiar at every gate.",
+      "contact": "Captain Mara Vey",
+      "location": "The harbor precinct",
+      "influence": 5,
+      "censored": false
+    },
+    {
+      "id": "gilded-ledger",
+      "name": "The Gilded Ledger",
+      "symbol": "◇",
+      "category": "Merchant guild",
+      "awareness": 55,
+      "opinion": -40,
+      "blurb": "Your interference with the salt shipment cost the guild a small fortune. Its factors are asking pointed questions about your next destination. A repayment or a useful favor might settle the account.",
+      "contact": "Factor Orin Pell",
+      "location": "Exchange House",
+      "influence": 8,
+      "censored": false
+    },
+    {
+      "id": "lantern-keepers",
+      "name": "The Lantern Keepers",
+      "symbol": "✧",
+      "category": "Temple order",
+      "awareness": 65,
+      "opinion": 85,
+      "blurb": "The recovered shrine bell has earned you a warm welcome. Sister Ilya offers shelter, healing, and a place to speak freely. The order considers you trusted friends.",
+      "contact": "Sister Ilya",
+      "location": "The Lantern Sanctuary",
+      "influence": 6,
+      "censored": false
+    },
+    {
+      "id": "ash-court",
+      "name": "The Ash Court",
+      "symbol": "♜",
+      "category": "Noble house",
+      "awareness": 25,
+      "opinion": 0,
+      "blurb": "Rumors of your exploits have reached the court, but nobody has put names to them yet. The upcoming masquerade could be your first opportunity to make an impression.",
+      "contact": "No established contact",
+      "location": "Greyglass Manor",
+      "influence": 9,
+      "censored": false
+    },
+    {
+      "id": "black-sails",
+      "name": "The Black Sails",
+      "symbol": "☾",
+      "category": "Smuggler network",
+      "awareness": 95,
+      "opinion": -90,
+      "blurb": "After the warehouse raid, the network knows exactly who you are. Trusted dockworkers say your descriptions are circulating among its crews. Traveling alone near the waterfront would be unwise.",
+      "contact": "The broker called Wren",
+      "location": "The lower docks",
+      "influence": 4,
+      "censored": false
+    },
+    {
+      "id": "mossbound-circle",
+      "name": "The Mossbound Circle",
+      "symbol": "❋",
+      "category": "Wilds collective",
+      "awareness": 5,
+      "opinion": 15,
+      "blurb": "A ranger carried word of your kindness to the marsh villages. Most of the Circle has never heard of you, but that first story was a favorable one.",
+      "contact": "Ranger Fen",
+      "location": "The reedwood marshes",
+      "influence": 3,
+      "censored": true
+    }
+  ]
+}
