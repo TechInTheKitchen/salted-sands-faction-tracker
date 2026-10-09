@@ -115,11 +115,11 @@ dialog::backdrop { background: var(--scrim-color); backdrop-filter: blur(5px); }
   .appearance { gap: 5px; }
   select { max-width: 105px; font-size: 12px; }
   main { width: 100%; padding: 12px 16px 0; }
-  .intro .eyebrow { margin: 2px 0; }
-  .toolbar { grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+  .intro .eyebrow, .toolbar #subtitle { display: none; }
+  .intro h1 { font-size: clamp(24px, 6vw, 28px); margin: 2px 0; }
+  .toolbar { display: none; }
   .toolbar > div { gap: 7px; }
-  .toolbar #subtitle { grid-column: 1 / -1; grid-row: 1; font-size: 13px; }
-  .toolbar > div, .toolbar #refresh { grid-row: 2; }
+  .toolbar > div, .toolbar #refresh { grid-row: 1; }
   #count { font-size: 11px; }
   .text-button { font-size: 12px; }
   .desk { display: flex; flex-direction: column; }
@@ -134,7 +134,7 @@ dialog::backdrop { background: var(--scrim-color); backdrop-filter: blur(5px); }
   .faction-name { font-size: 18px; }
   .dossier h2 { font-size: 29px; }
   footer { grid-template-columns: minmax(0, 1fr); gap: 2px; text-align: center; }
-  footer span:last-child { text-align: center; }
+  footer span:last-child, #last-updated { display: none; }
 }
 @media (max-width: 360px) {
   .brand { font-size: 17px; }
